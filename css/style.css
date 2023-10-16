@@ -1,0 +1,110 @@
+a {
+    list-style: none;
+    text-decoration: none;
+  }
+  a link {
+    list-style: none;
+    text-decoration: none;
+  }
+  link {
+    list-style: none;
+    text-decoration: none;
+  }
+  /* CAJA CONTENIDO */
+  #contend {
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    width: 320px;
+    height: 370px;
+    z-index: 1;
+    background: url("/bg.png") no-repeat top;
+    background-color: #d6d6d6;
+    border: 5px solid #fff1f0;
+  }
+  @media (max-width: 800px) {
+    #contend {
+      height: 200px; /* Puedes ajustar la altura para pantallas más pequeñas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #contend {
+      height: 150px; /* Puedes ajustar la altura para dispositivos móviles */
+    }
+  }
+
+  /* Player */
+  audio {
+    width: 320px;
+    height: 30px;
+    opacity: 0.3;
+  }
+  #audio:hover {
+    opacity: 0.5;
+  }
+ 
+
+  #track {
+    position: absolute;
+    left: 30px;
+    top: 233px;
+    width: 181px;
+    height: 20px;
+    z-index: 2;
+  }
+  #title_stream {
+    position: absolute;
+    left: 6px;
+    top: 351px;
+    width: 211px;
+    height: 21px;
+    z-index: 3;
+  }
+  #apDiv1 {
+    position: absolute;
+    left: 7px;
+    top: 235px;
+    width: 19px;
+    height: 18px;
+    z-index: 4;
+  }
+  #apDiv2 {
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 211px;
+    height: 206px;
+    z-index: 2;
+  }
+  .play_pause {
+    position: absolute;
+    left: 10px;
+    top: 342px;
+    width: 21px;
+    height: 20px;
+    z-index: 2;
+  }
+  #apDiv3 {
+    position: absolute;
+    left: 38px;
+    top: 341px;
+    width: 135px;
+    height: 14px;
+    z-index: 3;
+  }
+  #p {
+    opacity: 0.3;
+  }
+  #p:hover {
+    opacity: 0.6;
+  }
+  .aliguin {
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    width: 204px;
+    height: 28px;
+    z-index: 2;
+    /* [disabled]background: #FFF; */
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player KS2</title>
+    <!--Aqui esta el css puto!-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="contend">
+      <iframe
+        src="player4/play_list/listen_now.html"
+        frameborder="0"
+        width="300"
+        height="370"
+        scrolling="no"
+        allowtransparency
+      ></iframe>
+      <div id="player">
+        <audio controls autoplay id="volumeset">
+          <source
+            src="https://argentina.republicahosting.com:2080/stream"
+            type="audio/mpeg"
+          />
+          Update your browser. Your browser does not support HTML audio
+        </audio>
+        <script>
+          var audio = document.getElementById("volumeset");
+          audio.volume = 0.2;
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
